@@ -58,7 +58,7 @@ class _CourseHomeContentState extends State<CourseHomeContent> {
         backgroundColor: Colors.white,
         elevation: 0,
         title: Text(
-          'Hi Kunal Verma',
+          'Hi Naresh Kumar',
           style: TextStyle(
             color: Colors.black,
             fontSize: 18,
@@ -79,28 +79,7 @@ class _CourseHomeContentState extends State<CourseHomeContent> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // Alert Banner
-            Container(
-              margin: EdgeInsets.all(16),
-              padding: EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: Colors.red[50],
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: Colors.red[200]!),
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.warning_outlined, color: Colors.red, size: 20),
-                  SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod',
-                      style: TextStyle(color: Colors.red[700], fontSize: 12),
-                    ),
-                  ),
-                ],
-              ),
-            ),
+           
             // Tab Bar
             Container(
               margin: EdgeInsets.symmetric(horizontal: 16),
